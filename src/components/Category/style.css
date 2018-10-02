@@ -1,0 +1,24 @@
+.Category {
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Arial;
+  background: white;
+  padding: 20px 12px;
+  border-radius: 8px;
+  box-shadow: 2px 4px 20px rgba(0, 0, 0, .1);
+}
+
+.Category-title {
+  margin: 0 0 10px 10px;
+  font-size: 25px;
+  color: #32435c;
+}
+
+.Category-description {
+  margin: 0 0 0 10px;
+  font-size: 15px;
+  font-weigth: lighter;
+  color: #5d6d83;
+}

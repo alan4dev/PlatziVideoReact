@@ -1,0 +1,62 @@
+.Volume {
+  display: flex;
+  align-items: center;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 5px;
+  background: transparent;
+  cursor: pointer;
+  outline: 0;
+  position: relative;
+  transition: .3s;
+}
+
+.Volume:hover {
+  background: rgba(0, 0, 0, .3);
+}
+
+.Volume-range {
+  transform: rotate(-90deg);
+  transform-origin: left bottom;
+  position: absolute;
+  bottom: 42px; left: 50px;
+  height: 40px;
+  display: none;
+  background: rgba(23, 28, 48, .6);
+  border-radius: 10px;
+}
+
+.Volume:hover .Volume-range {
+  display: flex;
+}
+
+.Volume-range input {
+  outline: none;
+  background: transparent;
+}
+
+.Volume-range input {
+  -webkit-appearance: none;
+  margin: 0 18px;
+}
+
+.Volume-range input:focus {
+  outline: none;
+}
+
+.Volume-range input::-webkit-slider-runnable-track {
+  cursor: pointer;
+  background: #617e96;
+  height: 5px;
+}
+
+.Volume-range input::-webkit-slider-thumb {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, .2);
+  height: 12px;
+  width: 12px;
+  background: white;
+  border-radius: 50%;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -3px;
+}

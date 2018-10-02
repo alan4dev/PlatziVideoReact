@@ -1,0 +1,48 @@
+.Modal-overlay {
+  position: fixed;
+  top: 0; bottom: 0; left: 0; right: 0;
+  z-index: 1;
+  background: rgba(0, 0, 0, .6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Modal {
+  position: relative;
+  background: white;
+  border-radius: 8px;
+  min-width: 600px;
+  min-height: 250px;
+  border-bottom: #f5f5ff;
+  font-family: Arial;
+  padding: 20px 40px;
+  box-shadow: 3px 6px 15px rgba(0, 0, 0, .4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Modal-close {
+  position: absolute;
+  top: -10px; right: -10px;
+  cursor: pointer;
+  background: #171c30;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  outline: none;
+  width: 35px;
+  height: 35px;
+  transition: .3s;
+}
+
+.Modal-close::after {
+  content: '×';
+  font-size: 30px;
+}
+
+.Modal-close:hover {
+  background: #fd4646;
+}

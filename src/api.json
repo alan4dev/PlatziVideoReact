@@ -1,0 +1,161 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "description": "Nuestras recomendaciones para ti",
+      "title": "Recomendados",
+      "playlist": [
+        {
+          "title": "Nunca vemos nada",
+          "author": "Proof",
+          "type": "video",
+          "cover": "nunca_vemos_nada.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 1
+        },
+        {
+          "title": "Voy solo",
+          "author": "Gera MX",
+          "type": "video",
+          "cover": "voy_solo.jpg",
+          "src": "http://peach.themazzone.com/durian/movies/sintel-1024-surround.mp4",
+          "id": 2
+        },
+        {
+          "title": "Es epico",
+          "author": "Canserbero",
+          "type": "video",
+          "cover": "es_epico.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 3
+        },
+        {
+          "title": "Ojala yo viera",
+          "author": "Santiago Insane",
+          "type": "video",
+          "cover": "ojala_yo_viera.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 4
+        },
+        {
+          "title": "Vamos",
+          "author": "Lytos",
+          "type": "video",
+          "cover": "vamos.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 5
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "description": "¿Necesitas algo mas fuerte?",
+      "title": "HARDCORE",
+      "playlist": [
+        {
+          "title": "Look at me",
+          "author": "XXXTENTACION",
+          "type": "video",
+          "cover": "xxxtentacion.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 1
+        },
+        {
+          "title": "Venom",
+          "author": "Ghostemane",
+          "type": "video",
+          "cover": "venom.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 5
+        },
+        {
+          "title": "Es epico",
+          "author": "Canserbero",
+          "type": "video",
+          "cover": "es_epico.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 2
+        },
+        {
+          "title": "The ringer",
+          "author": "Eminem",
+          "type": "video",
+          "cover": "kamikaze.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 4
+        },
+        {
+          "title": "Mis honorarios",
+          "author": "Lobo Estepario",
+          "type": "video",
+          "cover": "mis_honorarios.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 3
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "description": "La calle manda",
+      "title": "Rap callejero",
+      "playlist": [
+        {
+          "title": "D.I.A.B.L.O",
+          "author": "Rapozt Mortem",
+          "type": "video",
+          "cover": "diablo.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 1
+        },
+        {
+          "title": "Armstrong",
+          "author": "Proof",
+          "type": "video",
+          "cover": "armstrong.png",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 3
+        },
+        {
+          "title": "Dejame volar",
+          "author": "Aleman",
+          "type": "video",
+          "cover": "dejame_volar.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 2
+        },
+        {
+          "title": "El otro dia",
+          "author": "Gera MX",
+          "type": "video",
+          "cover": "el_otro_dia.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 4
+        },
+        {
+          "title": "Ojala yo viera",
+          "author": "Santiago Insane",
+          "type": "video",
+          "cover": "ojala_yo_viera.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 5
+        },
+        {
+          "title": "El Dentista",
+          "author": "El grave",
+          "type": "video",
+          "cover": "el_dentista.jpg",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 6
+        },
+        {
+          "title": "El compa Ramiro",
+          "author": "Aleman",
+          "type": "video",
+          "cover": "el_compa_ramiro.png",
+          "src": "http://download.blender.org/peach/bigbuckbunny_movies/BigBuckBunny_320x180.mp4",
+          "id": 7
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+.PlayPause {
+  margin-right: 10px;
+}
+
+.PlayPause-btn {
+  background: transparent;
+  padding: 6px 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.PlayPause-btn:hover {
+  background: rgba(0, 0, 0, .3)
+}

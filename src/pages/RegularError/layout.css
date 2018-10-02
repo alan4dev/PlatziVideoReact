@@ -1,0 +1,41 @@
+.RegularError {
+  background: #f5f5ff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 -360px;
+  color: #6e84a3;
+  font-family: Arial;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.RegularError h2 {
+  font-size: 50px;
+}
+
+.RegularError h1 {
+  color: white;
+  font-size: 100px;
+  font-weight: lighter;
+  animation: spin 2s infinite linear;
+  background: #f0c770;
+  padding: 8px 14px;
+  border-radius: 8px;
+}
+
+.RegularError p {
+  font-size: 50px;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0);
+  }
+  
+  to {
+    transform: rotate(360deg);
+  }
+}

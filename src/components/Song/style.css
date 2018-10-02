@@ -1,0 +1,34 @@
+.Song {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  font-family: Arial;
+  background: white;
+  border-radius: 3px;
+  margin: 0 10px;
+  color: #44546b;
+}
+
+.Song-cover {
+  box-shadow: 3px 6px 15px rgba(0, 0, 0, .2);
+  transition: .3s;
+  width: 240px;
+}
+
+.Song:hover .Song-cover {
+  transform: scale(0.95);
+  opacity: .9;
+  border-radius: 5px;
+}
+
+.Song-title {
+  margin: 5px 0;
+  font-size: 17px;
+}
+
+.Song-author {
+  margin: 0 0 8px 0;
+  font-size: 14px;
+}

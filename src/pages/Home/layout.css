@@ -1,0 +1,8 @@
+body {
+  margin: 0;
+}
+
+.Home {
+  display: grid;
+  grid-template: 1fr / 300px calc(100% - 300px);
+}

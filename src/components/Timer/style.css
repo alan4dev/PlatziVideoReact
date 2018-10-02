@@ -1,0 +1,18 @@
+.Timer {
+  background: transparent;
+  font-family: Arial;
+  font-size: 15px;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.Timer p {
+  margin: 0;
+}
+
+.Timer span {
+  color: #f5f5ff;
+}
