@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Redux</title>
+  <style>
+    body {
+      margin: 0;
+      background: #f5f5ff;
+      font-family: Arial;
+      padding-top: 55px;
+    }
+
+    form {
+      padding: 10px;
+      position: fixed;
+      top: 0;
+      box-sizing: border-box;
+      width: 100%;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      font-size: 18px;
+      box-sizing: border-box;
+      border-radius: 5px;
+      border: none;
+      outline: none;
+      box-shadow: 2px 4px 10px rgba(0, 0, 0, .1);
+      color: #494949;
+      transition: .3s;
+    }
+
+    input:focus {
+      box-shadow: 2px 4px 15px rgba(0, 0, 0, .2);
+    }
+
+    p {
+      margin: 10px;
+      background: black;
+      color: white;
+      padding: 5px;
+    }
+
+    .playlist {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin: 15px 0 0 10px;
+    }
+
+    .song {
+      cursor: pointer;
+      background: transparent;
+      color: #494949;
+      width: 80%;
+      border-radius: 5px;
+      padding: 20px;
+      transition: .3s;
+    }
+
+    .song h2 {
+      margin: 0;
+      font-size: 20px;
+    }
+
+    .song:hover {
+      background: #e2e2f0;
+    }
+  </style>
+</head>
+<body>
+  <form id="form">
+    <input type="text" name="title" placeholder="Nombre de la canción">
+  </form>
+  <div class="playlist" id="playlist"></div>
+
+  <script src="dist/js/redux.js"></script>
+</body>
+</html>
