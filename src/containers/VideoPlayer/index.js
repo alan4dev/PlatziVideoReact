@@ -1,4 +1,5 @@
 import React, {Component} from 'react'
+import {connect} from 'react-redux'
 
 import VideoPlayerLayout from '../../components/VideoPlayer'
 import Video from '../../components/Video'
@@ -85,12 +86,12 @@ class VideoPlayer extends Component {
         setRef={this.setRef}
       >
         <Title
-          title={this.props.title}
+          title={this.props.song.get('title')}
         />
         <Video
           autoPlay={this.props.autoPlay}
           isPlay={this.state.isPlay}
-          src={this.props.src}
+          src={this.props.song.get('src')}
           handleLoadedMetadata={this.handleLoadedMetadata}
           handleTimeUpdate={this.handleTimeUpdate}
           handleSeeking={this.handleSeeking}
@@ -113,4 +114,10 @@ class VideoPlayer extends Component {
   }
 }
 
-export default VideoPlayer
+function mapStateToProps(state, props) {
+  return {
+    song: state.getIn(['data', 'entities', 'song', props.id])
+  }
+}
+
+export default connect(mapStateToProps)(VideoPlayer)

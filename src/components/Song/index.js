@@ -5,7 +5,7 @@ import './style.css'
 
 class Song extends PureComponent {
   handleClick = ev => {
-    this.props.openModal(this.props)
+    this.props.handleOpenModal(this.props.id)
   }
 
   render() {

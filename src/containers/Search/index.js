@@ -1,6 +1,10 @@
 import React, {Component} from 'react'
+import {connect} from 'react-redux';
+import {bindActionCreators} from 'redux';
 
 import SearchLayout from '../../components/Search'
+
+import * as actions from '../../actions'
 
 class Search extends Component {
   state = {
@@ -9,15 +13,16 @@ class Search extends Component {
 
   handleSubmit = ev => {
     ev.preventDefault()
+    this.props.actions.searchAsyncSong(this.input.value)
   }
-
+  
   handleInputRef = el => {
     this.input = el
   }
-
+  
   handleInputChange = ev => {
     this.setState({
-      value: ev.target.value.toLowerCase()
+      value: ev.target.value
     })
   }
 
@@ -33,4 +38,10 @@ class Search extends Component {
   }
 }
 
-export default Search
+function mapDispatchToProps(dispatch) {
+  return {
+    actions: bindActionCreators(actions, dispatch)
+  }
+}
+
+export default connect(null, mapDispatchToProps)(Search)
